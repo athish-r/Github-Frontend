@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body{
+  background: rgb(217, 221, 223);
+  margin: 5;
+  font-family: "Poppins";
+}
+header{
+  background: rgb(35, 85, 223);
+
+}
+header .container{
+  max-width: 1400px;
+  margin:0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+     color: black;
+     text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.Home {
+    display: table;
+    table-layout: auto;
+    gap: 50px;
+}
+/*
+.contact-details{
+  background: whitesmoke;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 2px black;
+
+}
+.contact-details p{
+  margin: 0;
+  font-size: 1em;
+  color: black;
+}
+
+.contact-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: white;
+  padding: 6px;
+  border-radius: 50%;
+  color: black;
+}*/
